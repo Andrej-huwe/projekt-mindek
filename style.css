@@ -1,0 +1,213 @@
+
+a {
+    cursor: pointer;
+}
+.container {
+    max-width: 1101px !important;
+}
+header.masthead {
+    padding-top: 10rem;
+    height: 55rem;
+    background: url("../img/bg-main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+#mainNav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    transition: background-color 0.2s ease;
+}
+.nav-item .nav-link {
+    color: #363636;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link {
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 1rem 0.5rem;
+    font-family: Ebrima;
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-brand {
+    font-family: Ebrima;
+    font-size: 2rem;
+}
+.avatar {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.page-section {
+    padding: 2rem 0;
+}
+.name-of-section {
+    margin-bottom: 2rem;
+}
+.card {
+    border: 0;
+}
+.card-img-articles {
+    min-height: 350px;
+}
+.card-body .btn {
+    background-color: #7fc5c3;
+    border: 0 solid;
+    border-radius: 25px;
+}
+.card-img {
+    height: 100%;
+}
+.card-img-text {
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 312px;
+    width: 50%;
+}
+.card-img-overlay {
+    padding: 0;
+    min-height: 350px;
+}
+.card-side {
+    border: 1px solid #b5b5b5;
+    margin-bottom: 2rem;
+}
+.avatar-side {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 40px auto 20px auto;
+}
+.text-comments {
+    background-color: #cdcdcd;
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.page-item {
+    padding: 2%;
+}
+.footer-section {
+    background: url("../img/bg-main.jpg");
+}
+.footer-section p {
+    color: white;
+}
+.footer-section #mainNav\ nav-top .nav-link {
+    color: white;
+}
+.footer-brand {
+    font-size: 3rem;
+}
+.navbar-text-top {
+    display: inline-block;
+    width: 100%;
+}
+.navbar-text-top.scrolled {
+    background-color: #7fc5c3 !important;
+    transition: background-color 200ms linear;
+}
+.navbar-text-top.scrolled .small-text {
+    color: white;
+}
+.carousel-caption p, .name-of-section h2, .card-body p {
+    font-family: Ebrima;
+}
+.card-body .card-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+.card-side .card-body .card-title {
+    font-size: 1rem;
+}
+.card-comments .card-body .card-title {
+    font-size: 1.5rem;
+}
+.pagination nav{
+    margin: auto;
+}
+.navbar-text-top p {
+    color: #b7b7b7;
+    margin-top: 1rem;
+}
+.page-section-viewed .card-body .card-title{
+    font-size: 1.2rem;
+}
+.page-link {
+    border-radius: 50%;
+    background: #7fc5c3;
+    color: white;
+}
+.page-item.disabled .page-link {
+    background: #f26d7d;
+    color: white;
+}
+.pagination-lg .page-item:last-child .page-link {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 50%;
+}
+.pagination-lg .page-item:first-child .page-link {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 50%;
+}
+.carousel-item {
+    margin-top: 5%;
+}
+@media (max-width: 700px) {
+    .carousel-item img {
+        opacity: 0;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-text-top {
+        width: 96%;
+        padding: 0 4%;
+    }
+    .navbar-text-top.scrolled {
+        margin-top: -12%;
+    }
+    .card-img-text {
+        width: 80%;
+    }
+}
+@media (max-width: 400px) {
+    .col {
+        padding-right: 0;
+    }
+    .col-md-8,.col-sm-12 {
+        padding-right: 0;
+    }
+    header.masthead {
+        margin-right: -2rem;
+    }
+    #about .container {
+        padding-left: 15px;
+    }
+    .card-img-text {
+        margin-top: 294px;
+    }
+
+    .navbar-all.up {
+        margin-top: -12%;
+    }
+    .pagination nav{
+        margin: 0;
+    }
+    .page-section h2 {
+        text-align: center;
+    }
+    .footer-section .navbar-brand {
+        padding: 11rem 0 !important;
+        margin-top: -11rem;
+    }
+}
